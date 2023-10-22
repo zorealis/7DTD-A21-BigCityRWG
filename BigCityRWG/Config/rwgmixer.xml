@@ -1,0 +1,152 @@
+<configs>
+
+	<!-- Less than 5K map sizes -->
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='hills']/property[@name='scale']/@value">1,1.5</set>
+	
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='oldwest']/property[@name='few']/@value">0</set>
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='oldwest']/property[@name='default']/@value">0</set>
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='oldwest']/property[@name='many']/@value">0</set>
+	
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='countrytown']/property[@name='few']/@value">1</set>
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='countrytown']/property[@name='default']/@value">1</set>
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='countrytown']/property[@name='many']/@value">2</set>
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='countrytown']/property[@name='mintiles']/@value">7</set>
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='countrytown']/property[@name='maxtiles']/@value">9</set>
+	
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='town']/property[@name='few']/@value">1</set>
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='town']/property[@name='default']/@value">2</set>
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='town']/property[@name='many']/@value">2</set>
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='town']/property[@name='mintiles']/@value">9</set>
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='town']/property[@name='maxtiles']/@value">13</set>
+	
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='city']/property[@name='few']/@value">1</set>
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='city']/property[@name='default']/@value">0</set>
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='city']/property[@name='many']/@value">0</set>
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='city']/property[@name='mintiles']/@value">10</set>
+	<set xpath="/rwgmixer/world[@name='tiny']/property[@class='city']/property[@name='maxtiles']/@value">80</set>
+
+	<!-- 5K to 7K maps-->
+
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='hills']/property[@name='scale']/@value">0.5,1.1</set>
+
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='oldwest']/property[@name='few']/@value">0</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='oldwest']/property[@name='default']/@value">0</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='oldwest']/property[@name='many']/@value">0</set>
+	
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='countrytown']/property[@name='few']/@value">1</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='countrytown']/property[@name='default']/@value">2</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='countrytown']/property[@name='many']/@value">3</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='countrytown']/property[@name='mintiles']/@value">9</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='countrytown']/property[@name='maxtiles']/@value">11</set>
+	
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='town']/property[@name='few']/@value">0</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='town']/property[@name='default']/@value">3</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='town']/property[@name='many']/@value">4</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='town']/property[@name='mintiles']/@value">10</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='town']/property[@name='maxtiles']/@value">17</set>
+	
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='city']/property[@name='few']/@value">1</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='city']/property[@name='default']/@value">0</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='city']/property[@name='many']/@value">0</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='city']/property[@name='mintiles']/@value">10</set>
+	<set xpath="/rwgmixer/world[@name='small']/property[@class='city']/property[@name='maxtiles']/@value">180</set>
+	
+	<!-- 7K to 10K maps-->
+
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='hills']/property[@name='scale']/@value">0.5,1.5</set>
+
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='oldwest']/property[@name='few']/@value">0</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='oldwest']/property[@name='default']/@value">0</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='oldwest']/property[@name='many']/@value">0</set>
+	
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='countrytown']/property[@name='few']/@value">2</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='countrytown']/property[@name='default']/@value">4</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='countrytown']/property[@name='many']/@value">6</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='countrytown']/property[@name='mintiles']/@value">5</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='countrytown']/property[@name='maxtiles']/@value">8</set>
+	
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='town']/property[@name='few']/@value">2</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='town']/property[@name='default']/@value">4</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='town']/property[@name='many']/@value">6</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='town']/property[@name='mintiles']/@value">12</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='town']/property[@name='maxtiles']/@value">25</set>
+	
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='city']/property[@name='few']/@value">2</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='city']/property[@name='default']/@value">0</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='city']/property[@name='many']/@value">0</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='city']/property[@name='mintiles']/@value">20</set>
+	<set xpath="/rwgmixer/world[@name='medium']/property[@class='city']/property[@name='maxtiles']/@value">500</set>
+
+	<!-- 10K to 16K maps -->
+
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='hills']/property[@name='scale']/@value">0.5,1.5</set>
+
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='oldwest']/property[@name='few']/@value">0</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='oldwest']/property[@name='default']/@value">0</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='oldwest']/property[@name='many']/@value">0</set>
+	
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='countrytown']/property[@name='few']/@value">2</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='countrytown']/property[@name='default']/@value">3</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='countrytown']/property[@name='many']/@value">4</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='countrytown']/property[@name='mintiles']/@value">10</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='countrytown']/property[@name='maxtiles']/@value">25</set>
+	
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='town']/property[@name='few']/@value">3</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='town']/property[@name='default']/@value">5</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='town']/property[@name='many']/@value">7</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='town']/property[@name='mintiles']/@value">12</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='town']/property[@name='maxtiles']/@value">40</set>
+	
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='city']/property[@name='few']/@value">1</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='city']/property[@name='default']/@value">0</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='city']/property[@name='many']/@value">0</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='city']/property[@name='mintiles']/@value">100</set>
+	<set xpath="/rwgmixer/world[@name='large']/property[@class='city']/property[@name='maxtiles']/@value">700</set>
+
+	<!-- Allows more types of districts to spawn in cities -->
+
+	<set xpath="/rwgmixer/township[@name='city']/property[@name='outskirt_district']/@value">countryresidential</set>
+	<set xpath="/rwgmixer/streettile[@name='rwg_tile_downtown_intersection_02']/property[@name='maxtiles']/@value">4</set>
+	<set xpath="/rwgmixer/district[@name='commercial']/property[@name='district_spawn_weight']/@value">0.8</set>
+	<set xpath="/rwgmixer/district[@name='downtown']/property[@name='district_spawn_weight']/@value">0.7</set>
+	<set xpath="/rwgmixer/district[@name='downtown']/property[@name='district_required_township']/@value">city,town</set>
+	<set xpath="/rwgmixer/district[@name='downtown']/property[@name='avoided_neighbor_districts']/@value">countryresidential,rural</set>
+	<set xpath="/rwgmixer/district[@name='industrial']/property[@name='district_spawn_weight']/@value">0.6</set>
+	<set xpath="/rwgmixer/district[@name='oldwest']/property[@name='district_required_township']/@value">oldwest,city,town,countrytown</set>
+	<set xpath="/rwgmixer/district[@name='oldwest']/property[@name='district_spawn_weight']/@value">0.1</set>
+	<set xpath="/rwgmixer/district[@name='rural']/property[@name='district_required_township']/@value">city,town,countrytown</set>
+	
+	<append xpath="/rwgmixer/district[@name='countryresidential']">
+		<property name="avoided_neighbor_districts" value="downtown,commercial,industrial"/>
+	</append>
+	
+	<append xpath="/rwgmixer/district[@name='rural']">
+		<property name="avoided_neighbor_districts" value="downtown,commercial,industrial,residential,oldwest"/>
+	</append>
+	
+	<append xpath="/rwgmixer/township[@name='countrytown']">
+		<property name="outskirt_district" value="rural"/>
+	</append>
+
+	<append xpath="/rwgmixer/township[@name='city']">
+		<property name="spawn_trader" value="true"/>
+	</append>
+	
+	<append xpath="/rwgmixer/district[@name='downtown']">
+		<property name="spawn_trader" value="true"/>
+	</append>
+	
+	<append xpath="/rwgmixer">
+		<township name="wilderness">
+			<property name="spawn_trader" value="true"/>
+		</township>
+	</append>
+
+	<append xpath="/rwgmixer">
+		<prefab_spawn_adjust partial_name="trader_jen" min_count="1"/>
+		<prefab_spawn_adjust partial_name="trader_bob" min_count="1"/>
+		<prefab_spawn_adjust partial_name="trader_rekt" min_count="1"/>
+		<prefab_spawn_adjust partial_name="trader_hugh" min_count="1"/>
+		<prefab_spawn_adjust partial_name="trader_joel" min_count="1"/>
+	</append>
+</configs>

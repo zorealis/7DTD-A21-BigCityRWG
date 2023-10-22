@@ -1,0 +1,4 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context
+
+xuiGenTowns,UI,XUI Random Gen Previewer,,,Cities\nFew - Megacities with a few towns\nDefault - Large cities with a few towns\nMany - Many large cities with a medium number of towns,
+xuiGenTownsDesc,UI,XUI Random Gen Previewer,,,Few - Megacities with more towns\nDefault - Medium cities with some towns\nMany - Many medium cities with a few towns,

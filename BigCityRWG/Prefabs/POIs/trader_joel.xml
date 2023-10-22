@@ -1,0 +1,3 @@
+<configs>
+	<set xpath="/prefab/property[@name='Tags']/@value">wilderness,commercial,city,town,downtown,residential,rural,oldwest,gateway,nocheckpoint,industrial,countryresidential,wildernessPOI</set>
+</configs>
